@@ -9,4 +9,5 @@ def main(x, y):
     Returns:
         int: the value of the expression
     """
-    return
+    return x*(pow(x-1, y)*(x*y)+1)
+print(main(5, 2))
