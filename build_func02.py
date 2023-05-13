@@ -8,4 +8,5 @@ def main():
     Returns:
         float: the value of the expression
     """
-    return
+    return float(-2.55)
+print(main())
